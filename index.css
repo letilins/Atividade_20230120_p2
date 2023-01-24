@@ -19,17 +19,17 @@ header{
     display:flex;
     align-items: center;
     justify-content: space-around;
-    height: 250px;
+    
 }
 
 img#mundo{
-    width: 15%;
-    margin: 20px;
+    width: 30%;
+    margin: 40px;
 }
 
 img#leticia{
-    width: 8%;
-    margin: 8%;
+    width: 15%;
+    margin: 15%;
     border-radius: 40%;
     box-shadow: 2px 2px 2px 2px;
 }
@@ -196,20 +196,6 @@ section#contatos{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     display: flex;
     height: 7%;
@@ -222,3 +208,30 @@ footer{
     position: fixed;
     bottom: 0px;
 }
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    header{
+        flex-direction: column;
+        padding: 20px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    selection#home{
+        flex-direction: column;
+        padding: 20px;
+    }
+  }
+
+  p.black{
+    text-align: center;
+ }
+
+  #texto h2{
+    text-align: center;
+  }
